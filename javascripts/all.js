@@ -1197,6 +1197,11 @@ $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
 ;
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+;
+
 
 
 

@@ -7,9 +7,9 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Welcome to Middleman</title>
+    <title>The Middleman</title>
 
-    <link href="stylesheets/bootstrap.css" rel="stylesheet" type="text/css" /><link href="stylesheets/freelancer.css" rel="stylesheet" type="text/css" /><link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><link href="stylesheets/syntax.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><link href="stylesheets/syntax.css" rel="stylesheet" type="text/css" /><link href="stylesheets/freelancer.css" rel="stylesheet" type="text/css" /><link href="stylesheets/masciugo.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body id="page-top" class="index">
@@ -24,13 +24,16 @@
         <span class='icon-bar'></span>
         <span class='icon-bar'></span>
       </button>
-      <a class='navbar-brand' href='#page-top'>Start Bootstrap</a>
+      <a class='navbar-brand' href='#page-top'>Ruby Web Developer</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
       <ul class='nav navbar-nav navbar-right'>
         <li class='hidden'>
           <a href='#page-top'></a>
+        </li>
+        <li class='page-scroll'>
+          <a href='#technologies'>Technologies</a>
         </li>
         <li class='page-scroll'>
           <a href='#portfolio'>Portfolio</a>
@@ -48,27 +51,49 @@
   <!-- /.container-fluid -->
 </nav>
 <!-- Header -->
-<header>
+<header class='flavour1'>
   <div class='container'>
     <div class='row'>
       <div class='col-lg-12'>
-        <img alt='' class='img-responsive' src='images/profile.png'>
         <div class='intro-text'>
-          <span class='name'>Start Bootstrap</span>
-          <hr class='star-light'>
-          <span class='skills'>Web Developer - Graphic Artist - User Experience Designer</span>
+          <img alt='' class='img-responsive' src='images/profile.png'>
+          <div class='switch'>
+            <span class='name'>Corrado Masciullo</span>
+            <div class='replace'>
+              you'll find me as <span class='name'>masciugo</span> on the web
+            </div>
+          </div>
+          <hr class='star'>
+          <span class='skills'>
+            Hi, I am a passionate ruby coder and I <a href='http://agilemanifesto.org/'>agilely</a> build web apps
+          </span>
         </div>
       </div>
     </div>
   </div>
 </header>
 <!-- Portfolio Grid Section -->
-<section id='portfolio'>
+<section class='flavour2' id='technologies'>
   <div class='container'>
     <div class='row'>
       <div class='col-lg-12 text-center'>
-        <h2>Portfolio</h2>
-        <hr class='star-primary'>
+        <h2>
+          <span>Technologies <i class="fa fa-exclamation-triangle" data-placement="right" data-toggle="tooltip" title="under construction"></i></span>
+        </h2>
+        <hr class='star'>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Portfolio Grid Section -->
+<section class='flavour0' id='portfolio'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-12 text-center'>
+        <h2>
+          <span>Portfolio <i class="fa fa-exclamation-triangle" data-placement="right" data-toggle="tooltip" title="under construction"></i></span>
+        </h2>
+        <hr class='star'>
       </div>
     </div>
     <div class='row'>
@@ -136,12 +161,14 @@
   </div>
 </section>
 <!-- About Section -->
-<section class='success' id='about'>
+<section class='flavour3' id='about'>
   <div class='container'>
     <div class='row'>
       <div class='col-lg-12 text-center'>
-        <h2>About</h2>
-        <hr class='star-light'>
+        <h2>
+          <span>About <i class="fa fa-exclamation-triangle" data-placement="right" data-toggle="tooltip" title="under construction"></i></span>
+        </h2>
+        <hr class='star'>
       </div>
     </div>
     <div class='row'>
@@ -161,12 +188,14 @@
   </div>
 </section>
 <!-- Contact Section -->
-<section id='contact'>
+<section class='flavour0' id='contact'>
   <div class='container'>
     <div class='row'>
       <div class='col-lg-12 text-center'>
-        <h2>Contact Me</h2>
-        <hr class='star-primary'>
+        <h2>
+          <span>Contact me <i class="fa fa-exclamation-triangle" data-placement="right" data-toggle="tooltip" title="under construction"></i></span>
+        </h2>
+        <hr class='star'>
       </div>
     </div>
     <div class='row'>
@@ -294,7 +323,7 @@
         <div class='col-lg-8 col-lg-offset-2'>
           <div class='modal-body'>
             <h2>Project Title</h2>
-            <hr class='star-primary'>
+            <hr class='star'>
             <img alt='' class='img-responsive img-centered' src='images/portfolio/cabin.png'>
             <p>
               Use this area of the page to describe your project. The icon above is part of a free icon set by
@@ -342,7 +371,7 @@
         <div class='col-lg-8 col-lg-offset-2'>
           <div class='modal-body'>
             <h2>Project Title</h2>
-            <hr class='star-primary'>
+            <hr class='star'>
             <img alt='' class='img-responsive img-centered' src='images/portfolio/cake.png'>
             <p>
               Use this area of the page to describe your project. The icon above is part of a free icon set by
@@ -390,7 +419,7 @@
         <div class='col-lg-8 col-lg-offset-2'>
           <div class='modal-body'>
             <h2>Project Title</h2>
-            <hr class='star-primary'>
+            <hr class='star'>
             <img alt='' class='img-responsive img-centered' src='images/portfolio/circus.png'>
             <p>
               Use this area of the page to describe your project. The icon above is part of a free icon set by
@@ -438,7 +467,7 @@
         <div class='col-lg-8 col-lg-offset-2'>
           <div class='modal-body'>
             <h2>Project Title</h2>
-            <hr class='star-primary'>
+            <hr class='star'>
             <img alt='' class='img-responsive img-centered' src='images/portfolio/game.png'>
             <p>
               Use this area of the page to describe your project. The icon above is part of a free icon set by
@@ -486,7 +515,7 @@
         <div class='col-lg-8 col-lg-offset-2'>
           <div class='modal-body'>
             <h2>Project Title</h2>
-            <hr class='star-primary'>
+            <hr class='star'>
             <img alt='' class='img-responsive img-centered' src='images/portfolio/safe.png'>
             <p>
               Use this area of the page to describe your project. The icon above is part of a free icon set by
@@ -534,7 +563,7 @@
         <div class='col-lg-8 col-lg-offset-2'>
           <div class='modal-body'>
             <h2>Project Title</h2>
-            <hr class='star-primary'>
+            <hr class='star'>
             <img alt='' class='img-responsive img-centered' src='images/portfolio/submarine.png'>
             <p>
               Use this area of the page to describe your project. The icon above is part of a free icon set by
@@ -570,13 +599,15 @@
     </div>
   </div>
 </div>
-<div id='example'>
-  <pre class="highlight ruby"><code><span class="nb">puts</span> <span class="s2">"hello"</span>
-  </code></pre>
-</div>
-<div id='example1'>
-  <pre class="highlight ruby"><code>&#x000A;<span class="k">def</span> <span class="nf">foo</span>&#x000A;  <span class="nb">puts</span> <span class="s1">'bar'</span>&#x000A;<span class="k">end</span>&#x000A;</code></pre>
-</div>
+<!-- #example -->
+<!-- = code('ruby') do -->
+<!-- puts "hello" -->
+<!-- #example1 -->
+<!-- :code -->
+<!-- # lang: ruby -->
+<!-- def foo -->
+<!-- puts 'bar' -->
+<!-- end -->
 
     <script src="javascripts/all.js" type="text/javascript"></script>
   </body>
