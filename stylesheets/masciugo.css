@@ -1,15 +1,16 @@
 /* line 1, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .switch {
-  position: relative; }
-  /* line 3, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  position: relative;
+  text-align: center;
+  height: 100px; }
+  /* line 5, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch .replace {
-    background: #18BC9C;
     position: absolute;
     top: 0;
     height: 100%;
     width: 100%;
     opacity: 0;
     transition: all 0.3s ease-in; }
-  /* line 12, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 13, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch:hover .replace {
     opacity: 1; }

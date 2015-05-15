@@ -134,7 +134,7 @@ section {
 /* line 149, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .flavour0 {
   color: #2C3E50;
-  background: white; }
+  background-color: white; }
   /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
   .flavour0 hr.star {
     border-color: #2C3E50; }
@@ -163,11 +163,14 @@ section {
     .flavour0 .btn-outline .badge {
       color: white;
       background-color: #2C3E50; }
+  /* line 54, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour0 .switch .replace {
+    background-color: white; }
 
 /* line 152, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .flavour1 {
   color: white;
-  background: #18BC9C; }
+  background-color: #18BC9C; }
   /* line 153, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   .flavour1 a {
     color: white;
@@ -200,11 +203,14 @@ section {
     .flavour1 .btn-outline .badge {
       color: #18BC9C;
       background-color: white; }
+  /* line 54, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour1 .switch .replace {
+    background-color: #18BC9C; }
 
 /* line 159, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .flavour2 {
   color: #381E10;
-  background: #D8A82D; }
+  background-color: #D8A82D; }
   /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
   .flavour2 hr.star {
     border-color: #381E10; }
@@ -233,11 +239,14 @@ section {
     .flavour2 .btn-outline .badge {
       color: #D8A82D;
       background-color: #381E10; }
+  /* line 54, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour2 .switch .replace {
+    background-color: #D8A82D; }
 
 /* line 162, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .flavour3 {
   color: #D8A82D;
-  background: #2C3E50; }
+  background-color: #2C3E50; }
   /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
   .flavour3 hr.star {
     border-color: #D8A82D; }
@@ -266,6 +275,9 @@ section {
     .flavour3 .btn-outline .badge {
       color: #2C3E50;
       background-color: #D8A82D; }
+  /* line 54, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour3 .switch .replace {
+    background-color: #2C3E50; }
 
 @media (max-width: 767px) {
   /* line 168, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
