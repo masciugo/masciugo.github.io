@@ -1,9 +1,237 @@
-/* line 1, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+/* line 11, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+.flavour0 {
+  color: #2C3E50;
+  background-color: white; }
+  /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour0 a:not(.btn) {
+    color: white;
+    text-decoration: underline; }
+  /* line 48, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour0 hr.star {
+    border-color: #2C3E50; }
+  /* line 51, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour0 hr.star:after {
+    color: #2C3E50;
+    background-color: white; }
+  /* line 55, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour0 .btn-outline {
+    color: #2C3E50;
+    background-color: white;
+    border-color: #2C3E50; }
+    /* line 7, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour0 .btn-outline:hover, .flavour0 .btn-outline:focus, .flavour0 .btn-outline:active, .flavour0 .btn-outline.active, .open .dropdown-toggle .flavour0 .btn-outline {
+      color: #2C3E50;
+      background-color: #e6e6e6;
+      border-color: #161f29; }
+    /* line 16, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour0 .btn-outline:active, .flavour0 .btn-outline.active, .open .dropdown-toggle .flavour0 .btn-outline {
+      background-image: none; }
+    /* line 24, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour0 .btn-outline.disabled, .flavour0 .btn-outline.disabled:hover, .flavour0 .btn-outline.disabled:focus, .flavour0 .btn-outline.disabled:active, .flavour0 .btn-outline.disabled.active, .flavour0 .btn-outline[disabled], .flavour0 .btn-outline[disabled]:hover, .flavour0 .btn-outline[disabled]:focus, .flavour0 .btn-outline[disabled]:active, .flavour0 .btn-outline[disabled].active, fieldset[disabled] .flavour0 .btn-outline, fieldset[disabled] .flavour0 .btn-outline:hover, fieldset[disabled] .flavour0 .btn-outline:focus, fieldset[disabled] .flavour0 .btn-outline:active, fieldset[disabled] .flavour0 .btn-outline.active {
+      background-color: white;
+      border-color: #2C3E50; }
+    /* line 34, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour0 .btn-outline .badge {
+      color: white;
+      background-color: #2C3E50; }
+  /* line 58, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour0 .switch .replace {
+    background-color: white; }
+  /* line 63, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour0 .popover {
+    color: white;
+    background-color: #2C3E50;
+    border: 0px; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour0 .popover.top > .arrow:after {
+      border-top-color: #2C3E50; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour0 .popover.bottom > .arrow:after {
+      border-bottom-color: #2C3E50; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour0 .popover.left > .arrow:after {
+      border-left-color: #2C3E50; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour0 .popover.right > .arrow:after {
+      border-right-color: #2C3E50; }
+
+/* line 14, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+.flavour1 {
+  color: white;
+  background-color: #18BC9C; }
+  /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour1 a:not(.btn) {
+    color: white;
+    text-decoration: underline; }
+  /* line 48, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour1 hr.star {
+    border-color: white; }
+  /* line 51, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour1 hr.star:after {
+    color: white;
+    background-color: #18BC9C; }
+  /* line 55, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour1 .btn-outline {
+    color: white;
+    background-color: #18BC9C;
+    border-color: white; }
+    /* line 7, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour1 .btn-outline:hover, .flavour1 .btn-outline:focus, .flavour1 .btn-outline:active, .flavour1 .btn-outline.active, .open .dropdown-toggle .flavour1 .btn-outline {
+      color: white;
+      background-color: #128f76;
+      border-color: #e0e0e0; }
+    /* line 16, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour1 .btn-outline:active, .flavour1 .btn-outline.active, .open .dropdown-toggle .flavour1 .btn-outline {
+      background-image: none; }
+    /* line 24, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour1 .btn-outline.disabled, .flavour1 .btn-outline.disabled:hover, .flavour1 .btn-outline.disabled:focus, .flavour1 .btn-outline.disabled:active, .flavour1 .btn-outline.disabled.active, .flavour1 .btn-outline[disabled], .flavour1 .btn-outline[disabled]:hover, .flavour1 .btn-outline[disabled]:focus, .flavour1 .btn-outline[disabled]:active, .flavour1 .btn-outline[disabled].active, fieldset[disabled] .flavour1 .btn-outline, fieldset[disabled] .flavour1 .btn-outline:hover, fieldset[disabled] .flavour1 .btn-outline:focus, fieldset[disabled] .flavour1 .btn-outline:active, fieldset[disabled] .flavour1 .btn-outline.active {
+      background-color: #18BC9C;
+      border-color: white; }
+    /* line 34, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour1 .btn-outline .badge {
+      color: #18BC9C;
+      background-color: white; }
+  /* line 58, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour1 .switch .replace {
+    background-color: #18BC9C; }
+  /* line 63, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour1 .popover {
+    color: #18BC9C;
+    background-color: white;
+    border: 0px; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour1 .popover.top > .arrow:after {
+      border-top-color: white; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour1 .popover.bottom > .arrow:after {
+      border-bottom-color: white; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour1 .popover.left > .arrow:after {
+      border-left-color: white; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour1 .popover.right > .arrow:after {
+      border-right-color: white; }
+
+/* line 17, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+.flavour2 {
+  color: #381E10;
+  background-color: #D8A82D; }
+  /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour2 a:not(.btn) {
+    color: white;
+    text-decoration: underline; }
+  /* line 48, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour2 hr.star {
+    border-color: #381E10; }
+  /* line 51, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour2 hr.star:after {
+    color: #381E10;
+    background-color: #D8A82D; }
+  /* line 55, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour2 .btn-outline {
+    color: #381E10;
+    background-color: #D8A82D;
+    border-color: #381E10; }
+    /* line 7, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour2 .btn-outline:hover, .flavour2 .btn-outline:focus, .flavour2 .btn-outline:active, .flavour2 .btn-outline.active, .open .dropdown-toggle .flavour2 .btn-outline {
+      color: #381E10;
+      background-color: #b18921;
+      border-color: #080402; }
+    /* line 16, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour2 .btn-outline:active, .flavour2 .btn-outline.active, .open .dropdown-toggle .flavour2 .btn-outline {
+      background-image: none; }
+    /* line 24, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour2 .btn-outline.disabled, .flavour2 .btn-outline.disabled:hover, .flavour2 .btn-outline.disabled:focus, .flavour2 .btn-outline.disabled:active, .flavour2 .btn-outline.disabled.active, .flavour2 .btn-outline[disabled], .flavour2 .btn-outline[disabled]:hover, .flavour2 .btn-outline[disabled]:focus, .flavour2 .btn-outline[disabled]:active, .flavour2 .btn-outline[disabled].active, fieldset[disabled] .flavour2 .btn-outline, fieldset[disabled] .flavour2 .btn-outline:hover, fieldset[disabled] .flavour2 .btn-outline:focus, fieldset[disabled] .flavour2 .btn-outline:active, fieldset[disabled] .flavour2 .btn-outline.active {
+      background-color: #D8A82D;
+      border-color: #381E10; }
+    /* line 34, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour2 .btn-outline .badge {
+      color: #D8A82D;
+      background-color: #381E10; }
+  /* line 58, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour2 .switch .replace {
+    background-color: #D8A82D; }
+  /* line 63, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour2 .popover {
+    color: #D8A82D;
+    background-color: #381E10;
+    border: 0px; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour2 .popover.top > .arrow:after {
+      border-top-color: #381E10; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour2 .popover.bottom > .arrow:after {
+      border-bottom-color: #381E10; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour2 .popover.left > .arrow:after {
+      border-left-color: #381E10; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour2 .popover.right > .arrow:after {
+      border-right-color: #381E10; }
+
+/* line 20, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+.flavour3 {
+  color: #D8A82D;
+  background-color: #2C3E50; }
+  /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour3 a:not(.btn) {
+    color: white;
+    text-decoration: underline; }
+  /* line 48, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour3 hr.star {
+    border-color: #D8A82D; }
+  /* line 51, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour3 hr.star:after {
+    color: #D8A82D;
+    background-color: #2C3E50; }
+  /* line 55, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour3 .btn-outline {
+    color: #D8A82D;
+    background-color: #2C3E50;
+    border-color: #D8A82D; }
+    /* line 7, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour3 .btn-outline:hover, .flavour3 .btn-outline:focus, .flavour3 .btn-outline:active, .flavour3 .btn-outline.active, .open .dropdown-toggle .flavour3 .btn-outline {
+      color: #D8A82D;
+      background-color: #1a242f;
+      border-color: #a9821f; }
+    /* line 16, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour3 .btn-outline:active, .flavour3 .btn-outline.active, .open .dropdown-toggle .flavour3 .btn-outline {
+      background-image: none; }
+    /* line 24, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour3 .btn-outline.disabled, .flavour3 .btn-outline.disabled:hover, .flavour3 .btn-outline.disabled:focus, .flavour3 .btn-outline.disabled:active, .flavour3 .btn-outline.disabled.active, .flavour3 .btn-outline[disabled], .flavour3 .btn-outline[disabled]:hover, .flavour3 .btn-outline[disabled]:focus, .flavour3 .btn-outline[disabled]:active, .flavour3 .btn-outline[disabled].active, fieldset[disabled] .flavour3 .btn-outline, fieldset[disabled] .flavour3 .btn-outline:hover, fieldset[disabled] .flavour3 .btn-outline:focus, fieldset[disabled] .flavour3 .btn-outline:active, fieldset[disabled] .flavour3 .btn-outline.active {
+      background-color: #2C3E50;
+      border-color: #D8A82D; }
+    /* line 34, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour3 .btn-outline .badge {
+      color: #2C3E50;
+      background-color: #D8A82D; }
+  /* line 58, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour3 .switch .replace {
+    background-color: #2C3E50; }
+  /* line 63, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+  .flavour3 .popover {
+    color: #2C3E50;
+    background-color: #D8A82D;
+    border: 0px; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour3 .popover.top > .arrow:after {
+      border-top-color: #D8A82D; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour3 .popover.bottom > .arrow:after {
+      border-bottom-color: #D8A82D; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour3 .popover.left > .arrow:after {
+      border-left-color: #D8A82D; }
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
+    .flavour3 .popover.right > .arrow:after {
+      border-right-color: #D8A82D; }
+
+/* line 26, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .switch {
   position: relative;
   text-align: center;
   height: 100px; }
-  /* line 5, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 30, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch .replace {
     position: absolute;
     top: 0;
@@ -11,6 +239,6 @@
     width: 100%;
     opacity: 0;
     transition: all 0.3s ease-in; }
-  /* line 13, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 38, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch:hover .replace {
     opacity: 1; }
