@@ -226,12 +226,26 @@
     .flavour3 .popover.right > .arrow:after {
       border-right-color: #D8A82D; }
 
-/* line 26, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+/* line 25, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+html, body, section, header {
+  height: 100%; }
+
+/* line 30, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+section .container, header .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+@media (max-width: 767px) {
+  /* line 38, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  #portfolio {
+    min-height: 2000px; } }
+/* line 42, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .switch {
   position: relative;
   text-align: center;
   height: 100px; }
-  /* line 30, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 46, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch .replace {
     position: absolute;
     top: 0;
@@ -239,6 +253,6 @@
     width: 100%;
     opacity: 0;
     transition: all 0.3s ease-in; }
-  /* line 38, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 54, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch:hover .replace {
     opacity: 1; }
