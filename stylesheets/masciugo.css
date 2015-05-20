@@ -242,10 +242,8 @@ section .container, header .container {
     min-height: 2000px; } }
 /* line 42, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .switch {
-  position: relative;
-  text-align: center;
-  height: 100px; }
-  /* line 46, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  position: relative; }
+  /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch .replace {
     position: absolute;
     top: 0;
@@ -253,6 +251,11 @@ section .container, header .container {
     width: 100%;
     opacity: 0;
     transition: all 0.3s ease-in; }
-  /* line 54, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+    /* line 49, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+    .switch .replace div {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); }
+  /* line 57, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch:hover .replace {
     opacity: 1; }
