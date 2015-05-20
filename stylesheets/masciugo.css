@@ -236,14 +236,18 @@ section .container, header .container {
   top: 50%;
   transform: translateY(-50%); }
 
+/* line 36, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+.navbar-default a.navbar-brand {
+  color: #D8A82D; }
+
 @media (max-width: 767px) {
-  /* line 38, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 41, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   #portfolio {
     min-height: 2000px; } }
-/* line 42, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+/* line 45, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .switch {
   position: relative; }
-  /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 47, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch .replace {
     position: absolute;
     top: 0;
@@ -251,11 +255,11 @@ section .container, header .container {
     width: 100%;
     opacity: 0;
     transition: all 0.3s ease-in; }
-    /* line 49, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+    /* line 52, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
     .switch .replace div {
       position: relative;
       top: 50%;
       transform: translateY(-50%); }
-  /* line 57, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 60, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch:hover .replace {
     opacity: 1; }
