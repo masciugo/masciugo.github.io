@@ -2,15 +2,14 @@
 body {
   overflow-x: hidden; }
 
-/* line 7, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-p {
-  font-size: 20px; }
+/* line 8, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+section, header {
+  padding: 100px 0; }
+  /* line 10, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  section h2, header h2 {
+    margin: 0; }
 
-/* line 11, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-p.small {
-  font-size: 16px; }
-
-/* line 15, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 16, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 a,
 a:hover,
 a:focus,
@@ -19,13 +18,13 @@ a.active {
   color: #18BC9C;
   outline: none; }
 
-/* line 24, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 25, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700; }
 
-/* line 30, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 31, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 hr.star {
   padding: 0;
   border: none;
@@ -34,7 +33,7 @@ hr.star {
   max-width: 250px;
   margin: 25px auto 30px; }
 
-/* line 39, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 40, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 hr.star:after {
   content: "\f005";
   font-family: FontAwesome;
@@ -44,106 +43,52 @@ hr.star:after {
   font-size: 2em;
   padding: 0 0.25em; }
 
-/* line 49, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 50, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .img-centered {
   margin: 0 auto; }
 
-/* line 53, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 54, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 header {
-  text-align: center;
-  background: #18BC9C;
-  color: white; }
-  /* line 57, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-  header .container {
-    padding-top: 100px;
-    padding-bottom: 50px; }
-  /* line 61, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  text-align: center; }
+  /* line 56, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   header img {
     display: block;
     margin: 0 auto 20px; }
-  /* line 66, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 61, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   header .intro-text .name {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 4.75em; }
-  /* line 73, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+    font-size: 1.75em; }
+  /* line 68, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   header .intro-text .skills {
-    font-size: 2.25em;
     font-weight: 300; }
 
-@media (min-width: 768px) {
-  /* line 82, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-  header .container {
-    padding-top: 200px;
-    padding-bottom: 100px; }
-  /* line 87, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-  header .intro-text .name {
-    font-size: 4.75em; }
-  /* line 90, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-  header .intro-text .skills {
-    font-size: 1.75em; } }
-@media (min-width: 992px) {
-  /* line 98, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-  .navbar-fixed-top {
-    padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s; }
-    /* line 103, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-    .navbar-fixed-top .navbar-brand {
-      font-size: 2em;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s; }
-
-  /* line 110, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-  .navbar-fixed-top.navbar-shrink {
-    padding: 10px 0; }
-    /* line 112, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-      font-size: 1.5em; } }
-/* line 118, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 75, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .navbar {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700; }
-  /* line 122, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 79, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   .navbar a:focus {
     outline: none; }
 
-/* line 127, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 84, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .navbar-default,
 .navbar-inverse {
   border: none; }
 
-/* line 132, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-section {
-  padding: 100px 0; }
-  /* line 134, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-  section h2 {
-    margin: 0;
-    font-size: 3.50em; }
-
-@media (max-width: 767px) {
-  /* line 142, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-  section {
-    padding: 75px 0; }
-
-  /* line 145, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
-  section.first {
-    padding-top: 75px; } }
-/* line 151, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 91, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0; }
-  /* line 154, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 94, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     max-width: 400px;
     margin: 0 auto; }
-    /* line 159, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+    /* line 99, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
     #portfolio .portfolio-item .portfolio-link .caption {
       background: fade(#18BC9C, 90%);
       position: absolute;
@@ -153,10 +98,10 @@ section {
       transition: all ease 0.5s;
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s; }
-      /* line 168, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+      /* line 108, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
       #portfolio .portfolio-item .portfolio-link .caption:hover {
         opacity: 1; }
-      /* line 171, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+      /* line 111, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
       #portfolio .portfolio-item .portfolio-link .caption .caption-content {
         position: absolute;
         width: 100%;
@@ -166,42 +111,41 @@ section {
         top: 50%;
         margin-top: -12px;
         color: white; }
-        /* line 180, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+        /* line 120, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
         #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
           margin-top: -12px; }
-        /* line 183, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+        /* line 123, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
           margin: 0; }
-/* line 191, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 131, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 #portfolio * {
   z-index: 2; }
 
 @media (min-width: 767px) {
-  /* line 198, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 138, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
-/* line 204, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 144, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .btn-outline {
   color: white;
-  font-size: 20px;
   border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px; }
-  /* line 211, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 151, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     color: #18BC9C;
     background: white;
     border: solid 2px white; }
 
-/* line 221, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 161, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #eeeeee; }
-  /* line 226, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 166, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   .floating-label-form-group input,
   .floating-label-form-group textarea {
     z-index: 1;
@@ -214,7 +158,7 @@ section {
     background: none;
     box-shadow: none !important;
     resize: none; }
-  /* line 239, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 179, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   .floating-label-form-group label {
     display: block;
     z-index: 0;
@@ -230,43 +174,43 @@ section {
     -moz-transition: top 0.3s ease,opacity 0.3s ease;
     -ms-transition: top 0.3s ease,opacity 0.3s ease;
     transition: top 0.3s ease,opacity 0.3s ease; }
-  /* line 255, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 195, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   .floating-label-form-group:not(:first-child) {
     padding-left: 14px;
     border-left: 1px solid #eeeeee; }
 
-/* line 262, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 202, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .floating-label-form-group-with-value label {
   top: 0;
   opacity: 1; }
 
-/* line 269, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 209, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .floating-label-form-group-with-focus label {
   color: #18BC9C; }
 
-/* line 274, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 214, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee; }
 
-/* line 278, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 218, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 footer {
   color: white; }
-  /* line 280, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 220, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   footer h3 {
     margin-bottom: 30px; }
-  /* line 283, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 223, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   footer .footer-above {
     padding-top: 50px;
     background-color: #2C3E50; }
-  /* line 287, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 227, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   footer .footer-col {
     margin-bottom: 50px; }
-  /* line 290, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 230, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   footer .footer-below {
     padding: 25px 0;
     background-color: #233140; }
 
-/* line 296, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 236, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .btn-social {
   display: inline-block;
   height: 50px;
@@ -277,13 +221,13 @@ footer {
   font-size: 20px;
   line-height: 45px; }
 
-/* line 307, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 247, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .btn:focus,
 .btn:active,
 .btn.active {
   outline: none; }
 
-/* line 313, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 253, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .scroll-top {
   position: fixed;
   right: 2%;
@@ -291,18 +235,18 @@ footer {
   width: 50px;
   height: 50px;
   z-index: 1049; }
-  /* line 320, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 260, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   .scroll-top .btn {
     font-size: 20px;
     width: 50px;
     height: 50px;
     border-radius: 100%;
     line-height: 28px; }
-    /* line 326, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+    /* line 266, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
     .scroll-top .btn:focus {
       outline: none; }
 
-/* line 333, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 273, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
@@ -312,17 +256,17 @@ footer {
   min-height: 100%;
   padding: 100px 0;
   text-align: center; }
-  /* line 342, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 282, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em; }
-  /* line 346, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 286, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   .portfolio-modal .modal-content img {
     margin-bottom: 30px; }
-  /* line 349, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 289, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   .portfolio-modal .modal-content .item-details {
     margin: 30px 0; }
-/* line 353, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+/* line 293, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
 .portfolio-modal .close-modal {
   position: absolute;
   width: 75px;
@@ -331,10 +275,10 @@ footer {
   top: 25px;
   right: 25px;
   cursor: pointer; }
-  /* line 361, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 301, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   .portfolio-modal .close-modal:hover {
     opacity: 0.3; }
-  /* line 364, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+  /* line 304, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
   .portfolio-modal .close-modal .lr {
     height: 75px;
     width: 1px;
@@ -346,7 +290,7 @@ footer {
     -webkit-transform: rotate(45deg);
     /* Safari and Chrome */
     z-index: 1051; }
-    /* line 375, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
+    /* line 315, /Users/masciugo/dev/website_middleman/source/stylesheets/freelancer.scss */
     .portfolio-modal .close-modal .lr .rl {
       height: 75px;
       width: 1px;
