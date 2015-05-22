@@ -17,47 +17,47 @@
     padding-right: 6px; }
 
   /* line 28, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
-  header .container {
-    padding-top: 200px;
-    padding-bottom: 100px; }
-  /* line 33, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+  header .container, section .container {
+    padding: 10% 0px; }
+
+  /* line 35, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
   header .intro-text .name {
-    font-size: 4.75em; }
-  /* line 36, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+    font-size: 3.75em; }
+  /* line 38, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
   header .intro-text .skills {
     font-size: 1.75em; }
 
-  /* line 42, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+  /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
   section h2 {
     font-size: 3em; }
-  /* line 45, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+  /* line 47, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
   section .btn-outline {
     padding: 18px 27px;
     font-size: 1em;
     line-height: 1.33;
     border-radius: 6px; }
-    /* line 50, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+    /* line 52, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
     section .btn-outline + .popover .popover-content {
       font-size: 1em; } }
 /* Medium Devices, Desktops (.col-md-) */
 @media only screen and (min-width: 992px) {
-  /* line 59, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+  /* line 61, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
   .navbar-fixed-top {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s; }
-    /* line 64, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+    /* line 66, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
     .navbar-fixed-top .navbar-brand {
       font-size: 2em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
 
-  /* line 71, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+  /* line 73, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
   .navbar-fixed-top.navbar-shrink {
     padding: 10px 0; }
-    /* line 73, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+    /* line 75, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
     .navbar-fixed-top.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
 /* Large Devices, Wide Screens (.col-lg-) */

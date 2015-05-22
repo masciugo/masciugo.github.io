@@ -208,23 +208,15 @@ html, body {
   /* line 27, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   html section, html header, body section, body header {
     min-height: 100%; }
-  /* line 30, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
-  html section#technologies, html section#blog, html section#about, html header, body section#technologies, body section#blog, body section#about, body header {
-    height: 100%; }
-    /* line 33, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
-    html section#technologies .container, html section#blog .container, html section#about .container, html header .container, body section#technologies .container, body section#blog .container, body section#about .container, body header .container {
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%); }
 
-/* line 42, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+/* line 40, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .navbar-default a.navbar-brand {
   color: #D8A82D; }
 
-/* line 53, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+/* line 45, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .switch {
   position: relative; }
-  /* line 55, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 47, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch .replace {
     position: absolute;
     top: 0;
@@ -232,11 +224,11 @@ html, body {
     width: 100%;
     opacity: 0;
     transition: all 0.3s ease-in; }
-    /* line 60, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+    /* line 52, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
     .switch .replace div {
       position: relative;
       top: 50%;
       transform: translateY(-50%); }
-  /* line 68, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 60, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch:hover .replace {
     opacity: 1; }
