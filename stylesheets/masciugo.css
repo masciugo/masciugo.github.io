@@ -1,10 +1,15 @@
-/* line 11, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+/* line 5, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+.modal-content {
+  height: 200px;
+  overflow: auto; }
+
+/* line 18, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .flavour0 {
   color: #2C3E50;
   background-color: white; }
   /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
   .flavour0 a:not(.btn) {
-    color: white;
+    color: #2C3E50;
     text-decoration: underline; }
   /* line 48, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
   .flavour0 hr.star {
@@ -49,7 +54,7 @@
     .flavour0 .popover.bottom > .arrow:after {
       border-bottom-color: #2C3E50; }
 
-/* line 14, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+/* line 21, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .flavour1 {
   color: white;
   background-color: #18BC9C; }
@@ -100,13 +105,13 @@
     .flavour1 .popover.bottom > .arrow:after {
       border-bottom-color: white; }
 
-/* line 17, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+/* line 24, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .flavour2 {
   color: #381E10;
   background-color: #D8A82D; }
   /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
   .flavour2 a:not(.btn) {
-    color: white;
+    color: #381E10;
     text-decoration: underline; }
   /* line 48, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
   .flavour2 hr.star {
@@ -151,13 +156,13 @@
     .flavour2 .popover.bottom > .arrow:after {
       border-bottom-color: #381E10; }
 
-/* line 20, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+/* line 27, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .flavour3 {
   color: #D8A82D;
   background-color: #2C3E50; }
   /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
   .flavour3 a:not(.btn) {
-    color: white;
+    color: #D8A82D;
     text-decoration: underline; }
   /* line 48, /Users/masciugo/dev/website_middleman/source/stylesheets/mixins.scss */
   .flavour3 hr.star {
@@ -202,21 +207,21 @@
     .flavour3 .popover.bottom > .arrow:after {
       border-bottom-color: #D8A82D; }
 
-/* line 25, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+/* line 32, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 html, body {
   height: 100%; }
-  /* line 27, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 34, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   html section, html header, body section, body header {
     min-height: 100%; }
 
-/* line 40, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+/* line 47, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .navbar-default a.navbar-brand {
   color: #D8A82D; }
 
-/* line 45, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+/* line 52, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
 .switch {
   position: relative; }
-  /* line 47, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 54, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch .replace {
     position: absolute;
     top: 0;
@@ -224,11 +229,11 @@ html, body {
     width: 100%;
     opacity: 0;
     transition: all 0.3s ease-in; }
-    /* line 52, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+    /* line 59, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
     .switch .replace div {
       position: relative;
       top: 50%;
       transform: translateY(-50%); }
-  /* line 60, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
+  /* line 67, /Users/masciugo/dev/website_middleman/source/stylesheets/masciugo.scss */
   .switch:hover .replace {
     opacity: 1; }
