@@ -125,7 +125,8 @@
     <div class='row'>
       <div class='col-lg-12 text-center'>
         <h2>
-          <span>Portfolio <i class="fa fa-exclamation-triangle" data-placement="right" data-toggle="tooltip" title="under construction"></i></span>
+          Portfolio
+          <!-- = under_construction('Portfolio') -->
         </h2>
         <hr class='star'>
       </div>
@@ -387,7 +388,14 @@
             </h2>
             <hr class='star'>
             <div class='description'>
-              <p></p>
+              <p>IBRA was developed to manage clinical data collection for the endometriosis project of San Raffaele Hospital which remotely involved many other teams from hospitals and clinical centers in Italy. Because of the moltitude of users and the kind of data (sensitive) particular attention to security was adopted implementing not only the authentication layer but also authorization strategies were necessary to protect each team&#x27;s data from each other. </p>
+              
+              <p>Its role was to act as a portal for all doctors tasked to insert, at first, patients&#x27; identity records and then anonymous clinical data through some Limesurvey questionnaires. IBRA controls the access to the surveys for each patients keeping track of their state of progress. The usage of an external tool like Limesurvey lets us to take advantage of its specialization in survey forms building and management and to keep separate public data from clinical data. To do that better (i.e. modularizing in an external gem) I had to develop a library to make Rails talk to the Limesurvey API called limesurvey_rails. </p>
+              
+              <p>Another interesting aspect of IBRA is its ability to insert patients&#x27; familiars letting them become participants at a later stage. This way is possible to build genealogy while populating the database allowing genetical observations to take place. As for Limesurvey,  the genealogy business logic was extracted in an external gem called genealogy.</p>
+              
+              <p>A second phase of development would deal with the download of the Limesurvey collected responses data back to IBRA.
+              </p>
             </div>
             <ul class='list-inline item-details'>
               <li>
@@ -488,13 +496,7 @@
               <img alt='' class='img-responsive img-centered' src='images/portfolio/bm/bm-1.png'>
             </div>
             <div class='well'>
-              <img alt='' class='img-responsive img-centered' src='images/portfolio/bm/bm-2.png'>
-            </div>
-            <div class='well'>
               <img alt='' class='img-responsive img-centered' src='images/portfolio/bm/bm-3.png'>
-            </div>
-            <div class='well'>
-              <img alt='' class='img-responsive img-centered' src='images/portfolio/bm/bm-5.png'>
             </div>
             <div class='well'>
               <img alt='' class='img-responsive img-centered' src='images/portfolio/bm/bm-6.png'>
@@ -578,13 +580,7 @@
               <img alt='' class='img-responsive img-centered' src='images/portfolio/vipp/vipp-3.png'>
             </div>
             <div class='well'>
-              <img alt='' class='img-responsive img-centered' src='images/portfolio/vipp/vipp-4.png'>
-            </div>
-            <div class='well'>
               <img alt='' class='img-responsive img-centered' src='images/portfolio/vipp/vipp-5.png'>
-            </div>
-            <div class='well'>
-              <img alt='' class='img-responsive img-centered' src='images/portfolio/vipp/vipp-6.png'>
             </div>
             <button class='btn btn-default' data-dismiss='modal' type='button'>
               <i class='fa fa-times'></i>

@@ -16,50 +16,50 @@
     padding-left: 6px;
     padding-right: 6px; }
 
-  /* line 28, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
-  header .container, section .container {
-    padding: 10% 0px; }
-
-  /* line 35, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+  /* line 29, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
   header .intro-text .name {
     font-size: 3.75em; }
-  /* line 38, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+  /* line 32, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
   header .intro-text .skills {
     font-size: 1.75em; }
 
-  /* line 44, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+  /* line 38, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
   section h2 {
     font-size: 3em; }
-  /* line 47, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+  /* line 41, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
   section .btn-outline {
     padding: 18px 27px;
     font-size: 1em;
     line-height: 1.33;
     border-radius: 6px; }
-    /* line 52, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+    /* line 46, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
     section .btn-outline + .popover .popover-content {
       font-size: 1em; } }
 /* Medium Devices, Desktops (.col-md-) */
 @media only screen and (min-width: 992px) {
-  /* line 61, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+  /* line 55, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
   .navbar-fixed-top {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s; }
-    /* line 66, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+    /* line 60, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
     .navbar-fixed-top .navbar-brand {
       font-size: 2em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
 
-  /* line 73, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+  /* line 67, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
   .navbar-fixed-top.navbar-shrink {
     padding: 10px 0; }
-    /* line 75, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+    /* line 69, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-      font-size: 1.5em; } }
+      font-size: 1.5em; }
+
+  /* line 73, /Users/masciugo/dev/website_middleman/source/stylesheets/media_queries.scss */
+  header, section {
+    padding: 150px 0; } }
 /* Large Devices, Wide Screens (.col-lg-) */
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
