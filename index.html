@@ -70,7 +70,7 @@
             <div class='replace'>
               <div>
                 <small>
-                  known as
+                  my name is
                 </small>
                 <span class='name'>masciugo</span>
                 <small>
@@ -105,11 +105,11 @@
         <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="my backpack">ruby on rails</a>
         <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="I'm not a native designer so I love it ;-)">bootstrap</a>
         <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="my unavoidable second tongue">javascript</a>
-        <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="I truly belive in the value of a backend API">restful api</a>
-        <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="my current tool to enhance UX">react</a>
+        <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="essential if you aim for SaaS and microservices">restful api</a>
+        <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="I belive in components">react</a>
         <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="It lets me deploy with the confidence of a system admin">capistrano</a>
         <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="I'm a githubber, I share code">git</a>
-        <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="the JS MVC I aim for">emberJS</a>
+        <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="my current tool for frontend">emberJS</a>
         <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="the BDD test toolkit I'm familiar with">rspec</a>
         <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="a life-partner ...winking to mariaDB">mysql</a>
         <a class="btn btn-outline" role="button" tabindex="0" data-toggle="popover" data-content="my preferred editor">sublime text</a>
@@ -406,9 +406,9 @@
             </h2>
             <hr class='star'>
             <div class='description'>
-              <p>IBRA was developed to manage clinical data collection for the endometriosis project of San Raffaele Hospital which remotely involved many other teams from hospitals and clinical centers in Italy. Because of the moltitude of users and the kind of data (sensitive) particular attention to security was adopted implementing not only the authentication layer but also authorization strategies were necessary to protect each team&#x27;s data from each other. </p>
+              <p>IBRA was developed to manage clinical data collection for the endometriosis project of San Raffaele Hospital which remotely involved many other teams from hospitals and clinical centers in Italy. Because of the moltitude of users and the kind of data (sensitive) particular attention to security was adopted implementing not only the authentication layer but also authorization strategies were necessary to protect each team&#x27;s data from each other.</p>
               
-              <p>Its role was to act as a portal for all doctors tasked to insert, at first, patients&#x27; identity records and then anonymous clinical data through some Limesurvey questionnaires. IBRA controls the access to the surveys for each patients keeping track of their state of progress. The usage of an external tool like Limesurvey lets us to take advantage of its specialization in survey forms building and management and to keep separate public data from clinical data. To do that better (i.e. modularizing in an external gem) I had to develop a library to make Rails talk to the Limesurvey API called limesurvey_rails. </p>
+              <p>Its role was to act as a portal for all doctors tasked to insert, at first, patients&#x27; identity records and then anonymous clinical data through some Limesurvey questionnaires. IBRA controls the access to the surveys for each patients keeping track of their state of progress. The usage of an external tool like Limesurvey lets us to take advantage of its specialization in survey forms building and management and to keep separate public data from clinical data. To do that better (i.e. modularizing in an external gem) I had to develop a library to make Rails talk to the Limesurvey API called limesurvey_rails.</p>
               
               <p>Another interesting aspect of IBRA is its ability to insert patients&#x27; familiars letting them become participants at a later stage. This way is possible to build genealogy while populating the database allowing genetical observations to take place. As for Limesurvey,  the genealogy business logic was extracted in an external gem called genealogy.</p>
               
@@ -473,7 +473,7 @@
             </h2>
             <hr class='star'>
             <div class='description'>
-              <p>A platform to safely manage any kind of biological samples, organized in tubes or multiwell plates and identified by a barcode. It keeps track of position, type and amount of the biological materials stored and of the history of the manipulations performed on each tube. 
+              <p>A platform to safely manage any kind of biological samples, organized in tubes or multiwell plates and identified by a barcode. It keeps track of position, type and amount of the biological materials stored and of the history of the manipulations performed on each tube.
               <br />It was also designed to organize “operations” that can be performed on each sample and on large groups of samples like aliquoting splitting, dilution, concentration measurements.</p>
               
               <p>It was previously part of the larger project VIPP and then extracted for Biomeris in order to make a commercial product
@@ -548,16 +548,16 @@
             </h2>
             <hr class='star'>
             <div class='description'>
-              <p>Modern biology deals with management of large amount of data, with use of different analysis tools that have to be used by different team members with various roles and expertise. Moreover, sensible data issues have to be considered, as well as the access to powerful centralized computational units. 
+              <p>Modern biology deals with management of large amount of data, with use of different analysis tools that have to be used by different team members with various roles and expertise. Moreover, sensible data issues have to be considered, as well as the access to powerful centralized computational units.
               <br />VIPP (ValBorbera Isolate Project Platform) is a multiuser database centered web application made with Ruby On Rails and MySql.</p>
               
-              <p>The platform can manage and connect different kind of data: </p>
+              <p>The platform can manage and connect different kind of data:</p>
               
               <p>Biological data. It is able to safely manage any kind of biological samples, organized in tubes or multiwell plates and identified by a barcode. The Biobank module keeps track of position, type and amount of the biological materials stored and of the history of the manipulations performed on each tube. It was also designed to organize “operations” that can be performed on each sample and on large groups of samples like aliquoting splitting, dilution, concentration measurements.</p>
               
               <p>Clinical data, collected from medical anamnesis. Information on donors is stored on a separate part of the DB and is encrypted for privacy reasons, as indicated by the privacy law.  Access to the sensible data is limited. Clinical and laboratory tests results can be organized formally in collections of qualitative and quantitative phenotypes for analysis.</p>
               
-              <p>Genotypical data. A database of DNA variation was developed to store and easily retrieve data form Whole Genome (WG) SNP genotyping. Storage of DNA variation derived from deep sequencing is under development as well as information on RNA Seq, Chip seq and other deep sequencing data. Data can be automatically extracted and formatted for analysis. </p>
+              <p>Genotypical data. A database of DNA variation was developed to store and easily retrieve data form Whole Genome (WG) SNP genotyping. Storage of DNA variation derived from deep sequencing is under development as well as information on RNA Seq, Chip seq and other deep sequencing data. Data can be automatically extracted and formatted for analysis.</p>
               
               <p>Tools for genetic association analysis have been integrated in the platform and pipelines were developed to link different analysis softwares and the different data that can be retrieved from the other DBs. Results from analyses done on the same trait can be plotted and compared: zooming in regions and extraction of results in table format is also available. The platform is integrated with public databases and resources like Ensembl and NCBI. Post-analysis tools and visualization utilities like Haploview and SNAP simplify and expedite the process of analyses.
               </p>
@@ -626,10 +626,13 @@
             </h2>
             <hr class='star'>
             <div class='description'>
-              <p>A tool for the control of shared purchases among friends. This is an EmberJS web app I built while learning the framework and is completely available on github (https:&#x2F;&#x2F;github.com&#x2F;masciugo&#x2F;quenta).</p>
+              <p>A tool for the control of shared purchases among friends.</p>
+              
+              <p>It is an EmberJS 2 single page web application backended by a Rails5 API and styled with Bootstrap 3. I developed it as a practice while I was learning the Ember framework. During this experience I faced the famous steep Ember learning curve and I had to start thinking the Ember way which is completely different from the Rails one. I learnt many tools of the JS development world like bower and npm, but more importantly I had to overcome all phases (like version revisioning and continuos deployment) and concerns (like CORS, HTTP over SSL, responsive design, asynchronous communication) of modern web application development. It is completely available on github (https:&#x2F;&#x2F;github.com&#x2F;masciugo&#x2F;quenta and https:&#x2F;&#x2F;github.com&#x2F;masciugo&#x2F;quenta-api).
+              </p>
             </div>
             <div class='website'>
-              <a href='http://polar-shore-3415.herokuapp.com/'>
+              <a href='http://quentaonline.herokuapp.com/'>
                 WEBSITE
               </a>
             </div>
@@ -643,7 +646,7 @@
               <li>
                 To:
                 <strong>
-                  july 2015
+                  september 2015
                 </strong>
               </li>
             </ul>
